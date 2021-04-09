@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<div class="col-lg-8 border p-4 m-4 mx-auto result-text">
+<h1>{{ request.user }}, your score is {{ score }}%</h1>
+<a href = "score" ><button class="btn btn-primary" id="ShowScore">Show Score Card</button></a>
+<a href="myQuizApp"><button class="btn btn-primary" id="submitAnswer">Back</button></a>
+
+{% endblock %}

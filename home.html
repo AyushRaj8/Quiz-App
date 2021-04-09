@@ -1,0 +1,24 @@
+{% extends "main.html" %}
+{% block content %}
+<section class="banner-image img-fluid">
+    <div class="container">
+        <div class="banner-content">
+            <h1>Welcome to the Quiz Site</h1>
+            <a href="index" class="btn btn-success btn-lg active">Test Section</a>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row p-2 m-2">
+        {% for i in quiz %}
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <section class="banner-image1 ab ">
+                <div class="banner-content">
+                    <a href ="index" ><h2>{{i.name}}</h2></a>
+                </div>
+            </section>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

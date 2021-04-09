@@ -1,0 +1,26 @@
+{% extends 'main.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body class="text-center">
+	<form class="form-signin form col-lg-8 border p-4 m-4 mx-auto" method="post" acton="">
+        {% csrf_token %}
+        <div>
+            <h1 class="h3 mb-3 font-weight-normal my-5" style="font-size: 25">Please Sign Up</h1>
+            <div>{{reg_form.username.label}}</div>
+            {{reg_form.username}}
+            <div>{{reg_form.email.label}}</div>
+            {{reg_form.email}}
+            <div>{{reg_form.password1.label}}</div>
+            {{reg_form.password1}}
+            <div>{{reg_form.password2.label}}</div>
+            {{reg_form.password2}}
+            <input class="btn btn-lg btn-primary btn-block my-4" type="submit">
+            <div>Login into your account <a href=" loginUser">Log In</a></div>
+        </div>
+    </form>
+</body>
+</html>
+{% endblock %}

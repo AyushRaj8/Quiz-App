@@ -1,0 +1,58 @@
+
+.banner-image{ padding-top: 75px;    
+    padding-bottom: 75px; 
+    text-align: center;     
+    color: #f8f8f8; 
+    background-image: url("/static/img/quizbanner2.jpg");
+    background-repeat: no-repeat ; 
+    background-position: center;
+    background-size:cover;
+    }
+
+.banner-image1{ padding-top: 75px;    
+    padding-bottom: 75px; 
+    text-align: center;     
+    color: #f8f8f8; 
+    background-image: url("/static/img/quizbanner.png");
+    background-repeat: no-repeat ; 
+    background-position: center;
+    background-size:cover;
+    }
+
+.banner-content{
+    position:relative; 
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    margin-top: 12%; 
+    margin-bottom: 12%; 
+    background-color: rgba(32, 68, 59, 0.685); 
+    max-width: 660px;
+    overflow: hidden;
+    }
+.abc{
+    color:floralwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.a{
+    background-color:black;
+}
+.ab{
+    border-radius: 15px;
+}
+.head{
+    text-align: center;
+    margin: 1.5rem auto;
+}
+.result-text{
+    text-align: center;
+}
+.login {
+    margin-bottom: 100px;
+}
+.form {
+    text-align: center;
+}
+.text-center {
+    margin: 60px;
+}
